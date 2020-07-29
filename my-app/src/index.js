@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter>
     <App/>
+    <CadastroVideo/>
+    <CadastroCategoria />
   </BrowserRouter>,
   document.getElementById('root')
 );
