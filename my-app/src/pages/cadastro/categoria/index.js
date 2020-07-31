@@ -44,22 +44,25 @@ function CadastroCategoria(){
         }}>
 
           <FormField 
-            type="textarea"
-            name="Descrição"
+            label="Nome da categoria:"
+            type="text"
+            name="name"
             value={values.name}
             onChange={handleChange}
           />
 
           <FormField 
+            label="Descrição:"
             type="textarea"
-            name="Descrição"
+            name="description"
             value={values.description}
             onChange={handleChange}
           />
 
           <FormField 
+            label="Cor:"
             type="color"
-            name="Cor"
+            name="color"
             value={values.color}
             onChange={handleChange}
           />
